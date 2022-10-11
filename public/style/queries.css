@@ -1,0 +1,114 @@
+/************************************/
+/* BELOW 1366px  */
+/************************************/
+
+@media (max-width: 85em) {
+    .container {
+        width: 102rem;
+    }
+
+    .header-menu {
+        width: 90%;
+    }
+
+    .steps-container {
+        height: 28rem;
+    }
+
+    .pesentation-text {
+        width: 102rem;
+    }
+}
+
+/************************************/
+/* BELOW 1024px  */
+/************************************/
+
+@media (max-width: 64em) {
+    .container {
+        width: 76.8rem;
+    }
+
+    /* MOBILE NAVIGATION */
+
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .header-contact,
+    .header-menu {
+        display: none;
+    }
+
+    .side-nav {
+        /* display: block; */
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper {
+        height: 23rem;
+    }
+
+    .index-about-title {
+        font-size: 3rem;
+    }
+
+    .steps-hidden {
+        display: none;
+    }
+
+    .presentation-element {
+        background-position: center;
+    }
+
+    .pesentation-text {
+        width: 76.8rem;
+        font-size: 4rem;
+    }
+
+    .classes-container {
+        margin-bottom: 1rem;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .footer-element {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        margin: auto;
+        align-items: center;
+    }
+
+    .footer-element.footer-hidden {
+        display: none;
+    }
+}
+
+/************************************/
+/* BELOW 768px  */
+/************************************/
+
+@media (max-width: 48em) {
+    .container {
+        width: 47rem;
+    }
+
+    .marketing-elements-container {
+        width: auto;
+    }
+
+    .pesentation-text {
+        width: 48rem;
+    }
+}
