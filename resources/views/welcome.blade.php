@@ -34,50 +34,53 @@
 <body class="antialiased">
     <div class="page">
         <div class="wrapper">
-            <header class="header">
-                <div class="side-nav">
-                    <button class="btn-mobile-nav">
+            <header class="header side-nav-open">
+
+                <div class="side-nav ">
+
+                    <button class=" close-btn-container">
                         <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
                     </button>
-                    <div class="side-nav-logo">
-                        <a href="#">
-                            <img src="{{ URL('images/logo.svg') }}" alt="logo">
-                        </a>
-                    </div>
 
-                    <div class="side-nav-menu">
-                        <nav class="header-menu ">
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">fRANCEK</a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">PHIBROWS</a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">MICROPOINT</a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">PHINJECTION
-                                </a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">TESTIMONIALS</a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">CLASSES</a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">
-                                    GALLERY</a>
-                            </div>
-                            <div class="header-menu-item">
-                                <a href="#" class="header-menu-item-link">CONTACT</a>
-                            </div>
-                        </nav>
-                    </div>
+                    <div class="side-nav-container">
+                        <div class="side-nav-logo">
+                            <a href="#">
+                                <img src="{{ URL('images/logo.svg') }}" alt="logo">
+                            </a>
+                        </div>
 
-                    <div class="side-nav-social">
-                        <ul class="index-about-social-container">
+                        <div class="side-nav-menu">
+                            <nav class="side-nav-header-menu ">
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">FRANCEK</a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">PHIBROWS</a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">MICROPOINT</a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">PHINJECTION
+                                    </a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">TESTIMONIALS</a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">CLASSES</a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">
+                                        GALLERY</a>
+                                </div>
+                                <div class="side-nav-header-menu-item">
+                                    <a href="#" class="side-nav-header-menu-item-link">CONTACT</a>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <ul class="side-nav-index-about-social-container">
                             <li class="index-about-social-element">
                                 <a class="index-about-social-link" href="#">
                                     <ion-icon class="index-about-social-icon" name="logo-facebook"></ion-icon>
@@ -106,27 +109,26 @@
                             </li>
                         </ul>
 
-                        <div class="header-contact ">
-                            <div class="header-contact-item">
-                                <a href="tel:1234567890" class="header-mail">
+                        <div class="side-nav-header-contact ">
+                            <div class="side-nav-header-contact-item">
+                                <a href="tel:1234567890" class="side-nav-header-mail">
                                     Phone: 1234567890
                                 </a>
                             </div>
 
-                            <div class="header-contact-item">
-                                <a href="mailto:test@gmail.com" class="header-mail">
+                            <div class="side-nav-header-contact-item">
+                                <a href="mailto:test@gmail.com" class="side-nav-header-mail">
                                     Email: test@gmail.com
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
 
                 <div class="container">
 
                     <div class="header-lang-container">
-                        <button class="btn-mobile-nav">
+                        <button class="menu-btn-container">
                             <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
                         </button>
                         <div class="header-contact ">

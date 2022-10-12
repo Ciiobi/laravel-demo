@@ -20,3 +20,18 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// SIDE MENU
+
+const bntNavEl = document.querySelector(".menu-btn-container");
+const sideNavEl = document.querySelector(".side-nav");
+
+const remove = document.querySelector(".close-btn-container");
+
+bntNavEl.addEventListener("click", function () {
+    sideNavEl.classList.toggle("side-nav-open");
+});
+
+remove.addEventListener("click", function () {
+    sideNavEl.classList.remove("side-nav-open");
+});

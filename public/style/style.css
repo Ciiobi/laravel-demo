@@ -77,6 +77,8 @@ a {
 
 .header-mail {
     text-transform: uppercase;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
     font-size: 1.2rem;
     color: #000;
 }
@@ -125,6 +127,8 @@ a {
 
 .header-menu-item-link:link,
 .header-menu-item-link:visited {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
     text-transform: uppercase;
     font-size: 1.6rem;
     color: #000;
@@ -135,16 +139,103 @@ a {
     opacity: 70%;
 }
 
+/* ********************* */
 /* Mobile Navigation */
+/* ********************* */
+
 .side-nav {
-    display: none;
+    /* display: none !important; */
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #ced0d9;
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-in;
 }
 
-.btn-mobile-nav {
+.header .side-nav-open {
+    transform: translateX(0);
+    z-index: 99999;
+}
+
+.side-nav-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2.6rem;
+}
+
+.side-nav-logo {
+    width: 181px;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.side-nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.side-nav-header-menu {
+    text-align: center;
+}
+
+.side-nav-header-menu-item-link:link,
+.side-nav-header-menu-item-link:visited {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.3rem;
+    color: #000;
+    line-height: 2;
+}
+
+.side-navheader-menu-item-link:hover,
+.side-nav-header-menu-item-link:active {
+    opacity: 70%;
+}
+
+.side-nav-index-about-social-container {
+    display: flex;
+    width: 25rem;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+.side-nav-header-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #000;
+}
+
+.side-nav-header-contact-item {
+    font-size: 1.2rem;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.side-nav-header-mail {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.close-btn-container,
+.menu-btn-container {
     border: none;
     background: none;
     cursor: pointer;
+}
 
+.menu-btn-container {
     display: none;
 }
 
@@ -153,9 +244,14 @@ a {
     width: 3rem;
 }
 
-.icon-mobile-nav[name="close-outline"] {
-    display: none;
+.close-btn-container {
+    padding: 2.2rem 2rem;
+    margin-left: 12.4rem;
 }
+
+/* .icon-mobile-nav[name="close-outline"] {
+    display: none;
+} */
 
 /* ************************************************************************** */
 /* CONTENT */

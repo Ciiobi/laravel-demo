@@ -31,23 +31,21 @@
 
     /* MOBILE NAVIGATION */
 
-    .btn-mobile-nav {
+    .menu-btn-container {
         display: block;
     }
+
+    /* .side-nav {
+        opacity: 0;
+    } */
+
+    /* .side-nav-container {
+        opacity: 0;
+    } */
 
     .header-contact,
     .header-menu {
         display: none;
-    }
-
-    .side-nav {
-        /* display: block; */
-        background-color: #fff;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
     }
 
     .swiper {
